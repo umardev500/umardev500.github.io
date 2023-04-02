@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Home: React.FC = () => {
     return (
-        <div className="container m-auto">
+        <div className="container m-auto min-h-screen">
             <div className="grid grid-cols-8">
                 <div className="col-span-2"></div>
-                <div className="col-span-4">
+                <div className="col-span-8 px-2 lg:col-span-4">
                     <div className="mt-60 flex items-center justify-center">
                         <div className="flex flex-col gap-4 items-center">
                             <div className="roboto font-semibold text-6xl text-gray-600">Umar</div>
@@ -16,7 +16,7 @@ export const Home: React.FC = () => {
                                 <a
                                     href="UmarResume.pdf"
                                     target="_blank"
-                                    className="flex gap-2 items-center roboto font-medium outline-none bg-sky-500 hover:bg-sky-600 px-5 py-2 rounded-full text-white"
+                                    className="flex whitespace-nowrap gap-2 items-center roboto font-medium outline-none bg-sky-500 hover:bg-sky-600 px-5 py-2 rounded-full text-white"
                                 >
                                     <span>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
