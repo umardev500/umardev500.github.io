@@ -2,11 +2,11 @@ import React from 'react'
 
 export const Home: React.FC = () => {
     return (
-        <div className="container m-auto min-h-screen">
+        <div className="container m-auto min-h-screen flex items-center justify-center">
             <div className="grid grid-cols-8">
                 <div className="col-span-2"></div>
                 <div className="col-span-8 px-2 lg:col-span-4">
-                    <div className="mt-60 flex items-center justify-center">
+                    <div className="flex items-center justify-center">
                         <div className="flex flex-col gap-4 items-center">
                             <div className="roboto font-semibold text-6xl text-gray-600">Umar</div>
                             <div className="roboto text-gray-400">Software Engineer | Tech Enthusiast</div>
