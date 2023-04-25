@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
 
                             <div className="flex gap-2 mt-8">
                                 <a
-                                    href="UmarResume.pdf"
+                                    href="resume.pdf"
                                     target="_blank"
                                     className="flex whitespace-nowrap gap-2 items-center roboto font-medium outline-none bg-sky-500 hover:bg-sky-600 px-5 py-2 rounded-full text-white"
                                 >
