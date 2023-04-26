@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
                         <div className="flex flex-col gap-4 items-center">
                             <div className="roboto font-semibold text-6xl text-gray-600">Umar</div>
                             <div className="roboto text-gray-400">Software Engineer | Tech Enthusiast</div>
-                            <div className="text-center text-gray-500 font-medium text-lg">Hi there I am Umar, currenty I'm helping other to be succeed.</div>
+                            <div className="ubuntu text-center text-gray-500 font-medium text-lg">Hi there I am Umar, currenty I'm helping other to be succeed.</div>
 
                             <div className="flex gap-2 mt-8">
                                 <a
